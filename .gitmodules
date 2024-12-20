@@ -1,0 +1,6 @@
+[submodule "wallet-app/wallet-app"]
+	path = wallet-app/wallet-app
+	url = https://github.com/SamTheDemon/wallet-transaction-frontend
+[submodule "wallet-transaction-backend"]
+	path = wallet-transaction-backend
+	url = https://github.com/SamTheDemon/wallet-transaction-backend
