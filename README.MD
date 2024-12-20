@@ -73,8 +73,15 @@ This project is wallet and transaction management system built with:
 
 
 ## environment-variables
-In case if the `.env` file is not in the `\wallet-transaction-backend\` directory, you can create a new `.env` and set a `JWT_SECRET=YOUR_JWT_SECRET`. 
-
+In case if the `.env` file is not in the `\wallet-transaction-backend\` directory,
+ you can create a new `.env` and set the following:
+ - a `JWT_SECRET=YOUR_JWT_SECRET`. 
+ - `DB_HOST=localhost`
+- `DB_PORT=5432`
+- `DB_USERNAME=YOUR_DB_USERNAME`
+- `DB_PASSWORD=YOUR_DB_PASSWORD`
+- `DB_NAME=wallet_transaction_db`
+- `MONGO_URI= YOUR_MONGO_URL/wallet_system`
 
 ## features
 - this allows User to:
@@ -92,5 +99,3 @@ In case if the `.env` file is not in the `\wallet-transaction-backend\` director
 
 
 
-## links: 
-- Postman:  back-end endpoints
