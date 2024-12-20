@@ -9,7 +9,6 @@ This project is wallet and transaction management system built with:
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Usage](#usage)
 - [Features](#features)
 
 ## Prerequisites
