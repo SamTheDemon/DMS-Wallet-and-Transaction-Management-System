@@ -1,5 +1,7 @@
 # Wallet and Transaction Management System
-proof of concept to evaluate development skills in building a full-stack application.
+This is a proof of concept project to evaluate development skills in building a full-stack application. 
+This project was given by DMS.
+Please note this repo has sub modules, meaning that the wallet-transaction-backend is a repo and wallet-app-frontend is another repo. 
 
 This project is wallet and transaction management system built with:
 - Backend: NestJS SQL PostgreSQL, and MongoDB.
