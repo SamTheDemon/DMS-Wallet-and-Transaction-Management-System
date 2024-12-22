@@ -1,5 +1,7 @@
 # Wallet and Transaction Management System
-proof of concept to evaluate development skills in building a full-stack application.
+This is a proof of concept project to evaluate development skills in building a full-stack application. 
+This project was given by DMS.
+Please note this repo has sub modules, meaning that the wallet-transaction-backend is a repo and wallet-app-frontend is another repo. 
 
 This project is wallet and transaction management system built with:
 - Backend: NestJS SQL PostgreSQL, and MongoDB.
@@ -9,7 +11,6 @@ This project is wallet and transaction management system built with:
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Usage](#usage)
 - [Features](#features)
 
 ## Prerequisites
@@ -18,16 +19,16 @@ This project is wallet and transaction management system built with:
 - npm 
 
 #### Key Dependencies
-   1. Vue.js (vue): Main framework.
-    2. Vue Router (vue-router): For routing in the app.
-    3. Vuex (vuex): State management.
-    3. Axios: For making HTTP requests.
-    4. Chart.js & Vue-Chart.js: For rendering charts.
-    5. JWT Decode (jwt-decode): To decode JWT tokens.
-    6. Tailwind CSS: For styling.
-    7. @vue/cli-service: Vue CLI for building and serving the app.
-    8. PostCSS and Autoprefixer: For CSS processing.
-    9. ESLint and Prettier: For code linting and formatting.
+- 1. Vue.js (vue): Main framework.
+- 2. Vue Router (vue-router): For routing in the app.
+- 3. Vuex (vuex): State management.
+- 4. Axios: For making HTTP requests.
+- 5. Chart.js & Vue-Chart.js: For rendering charts.
+- 6. JWT Decode (jwt-decode): To decode JWT tokens.
+- 7. Tailwind CSS: For styling.
+- 8. @vue/cli-service: Vue CLI for building and serving the app.
+- 9. PostCSS and Autoprefixer: For CSS processing.
+- 10. ESLint and Prettier: For code linting and formatting.
 
 
 ### backend: 
@@ -38,16 +39,16 @@ This project is wallet and transaction management system built with:
 - PostgreSQL 
 
 #### Key Dependencies:
-1. 1NestJS Core Packages: @nestjs/common, @nestjs/core, etc.
-    2. MongoDB: Managed using @nestjs/mongoose and mongoose.
-    3. Redis: Managed using ioredis.
-    4. JWT Authentication: @nestjs/jwt, passport, and related packages.
-    5. TypeORM (Optional): You still have typeorm and pg installed. Ensure these are not unused.
-    6. Other Utilities:
-    7. bcrypt: For password hashing.
-    8. date-fns: For date manipulation.
-    9. axios: For HTTP requests.
-    10. ESLint and Prettier: For linting and formatting.
+- 1. NestJS Core Packages: @nestjs/common, @nestjs/core, etc.
+- 2. MongoDB: Managed using @nestjs/mongoose and mongoose.
+- 3. Redis: Managed using ioredis.
+- 4. JWT Authentication: @nestjs/jwt, passport, and related packages.
+- 5. TypeORM (Optional): You still have typeorm and pg installed. Ensure these are not unused.
+- 6. Other Utilities:
+- 7. bcrypt: For password hashing.
+- 8. date-fns: For date manipulation.
+- 9. axios: For HTTP requests.
+- 10. ESLint and Prettier: For linting and formatting.
 
 ## Installation
 1. Clone the repository:
